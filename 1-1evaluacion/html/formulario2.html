@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+<body>
+   <form>
+     <div>   
+    <label for="nombre"><b>Escribe tu nombre</b></label>
+    <input type="text" id="nombre" placeholder="Anibal">
+</div>
+<br>
+<div>
+    <label for="apellido">Escribe tu apellido</label>
+    <input type="text" id="apellido" placeholder="Jota">  
+</div>
+<br>
+<div>
+    <label for="correo">Escribe tu email</label>
+    <input type="text" id="correo" placeholder="Anibaljota@gmail.com">
+</div>
+<br>
+<div>
+    <h2>¿Que valoracion le das a la publicacion?</h2>
+    <label>0
+        <input type="radio" name="publicacion" value="0">
+    </label>
+    <label>1 
+        <input type="radio" name="publicacion" value="1"></label>
+<label>2
+    <input type="radio" name="publicacion" value="2">
+</label>
+<label>3
+    <input type="radio" name="publicacion" value="3">
+</label>
+<label>4
+    <input type="radio" name="publicacion" value="4"> </label>
+    <label>5 <input type="radio" name="publicacion" value="5" checked></label>
+</div>
+<div>
+    <h2>¿Que asignaturas haz estudiado?</h2>
+    <label>hatml
+        <input type="checkbox" name="estudio" value="html" checked>
+    </label>
+   <label>ccs
+    <input type="checkbox" name="estudio" value="ccs">
+   </label>
+   <label>javascript
+    <input type="checkbox" name="estudio" value="javascript">
+   </label>
+</div>
+<div>
+    <h2>Selecciona tu alineacion ideal</h2>
+    <input type="list" list="alineacion">
+    <datalist id="alineacion">
+        <option value="Miguel Cabrera"></option>
+        <option value="Omar Vizquel"></option>
+        <option value="Robert Perez"></option>
+        <option value="Andres Galarraga"></option>
+        <option value="Luis Sojo"></option>
+    </datalist>
+</div>
+
+    <div>
+        <h2>¿Que mejorarias de este curso</h2>
+        <textarea name="curso" id="curso" cols="30" rows="10"></textarea>
+
+    </div>
+<input type="submit" value="Enviar">
+
+   </form> 
+</body>
+</html>

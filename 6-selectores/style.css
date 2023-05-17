@@ -1,0 +1,36 @@
+*{background-color: aquamarine;
+}
+h1{background-color: rgb(199, 179, 179);}
+h2{background-color: chartreuse;}
+
+.universal{background-color: rgb(155, 243, 120);}
+.selec{background-color: blueviolet;}
+
+[href]{background-color: darkorange;}
+[type="circle"]{background-color: rgb(188, 152, 221);}
+
+.list1,
+.list2{background-color: rgb(130, 130, 240);}
+div .comp{background-color: antiquewhite;}
+.hermano + .texto1{background-color: dimgray;}
+.hermano ~ .texto2{background-color: #744b4b;}
+.intro > .hermano{background-color: darkorange;}
+div .texto3{color: rgb(19, 32, 2);}
+.herenc, 
+.hconsepto{color: rgb(5, 5, 46);}
+body {
+    margin: 0;
+  }
+  
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0}
+    
+hr {
+    box-sizing: content-box;  1 
+    height: 0;  1 
+    overflow: visible;  2 
+  }
+  strong {
+    font-weight: bolder;
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario3</title>
+</head>
+<body>
+    <div class="caja1">
+        <div class="caja2">
+            <div class="caja3">
+                <p class="texto1">INFORMACION DE CONTACTO</p>
+                <p class="texto2">info.contact@gmail.com</p>
+                <p class="texto3">+1(585) 902-8665</p>
+            </div>
+            <p class="texto4">Envia un mensaje</p>
+            <form action="form" class="formulario">
+                <label for="nombre" class="titulo">Nombres *</label> <br>
+                <input type="text" id="nombre" class="datos">
+                <hr>
+                <label for="telefono" class="titulo">Telefono/Celular</label> <br>
+                <input type="tel" id="telefono" class="datos">
+                <hr>
+                <label for="correo" class="titulo">Correo electronico *</label> <br>
+                <input type="email" id="correo" class="datos">
+                <hr>
+                <textarea name="Mensaje" id="mensaje" cols="60" rows="3" class="cuadro">Mensaje *</textarea>
+                <hr>
+                <input type="submit" class="boton" value="Enviar Mensaje">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

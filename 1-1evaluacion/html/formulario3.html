@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 3</title>
+</head>
+<body>
+    <form>
+        <div>
+            
+            <fieldset>
+                <legend>Datos Obligatorios</legend> <br> 
+                <div>
+                <label for="nombre">Nombre</label> <br>
+                <input type="text" id="nombre" required> <br>
+                <label for="contraseña">Contraseña</label> <br>
+                <input type="password" id="contraseña" required> <br>
+            </div>
+                <h2>Ciudades que ha visitado:</h2>
+                <input type="checkbox" id="cab" value="cabudare" name="ciudad">
+                <label for="cab">Cabudare</label> <br>
+                <input type="checkbox" id="car" value="carora" name="ciudad">
+                <label for="car">Carora</label> <br>
+                <input type="checkbox" id="cubi" value="cubiro" name="ciudad">
+                <label for="cubi">Cubiro</label> <br>
+                <h2>Sexo</h2> 
+                <input type="radio" id="hombre" value="hombre" name="sexo"> 
+                <label for="hombre">Hombre</label> <br>
+                <input type="radio" id="mujer" value="mujer" name="sexo"> 
+                 <label for="mujer">Mujer</label> <br>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Datos Opcionales</legend> <br>
+                <textarea name="Opcionales" id="Opcion" cols="30" rows="10" placeholder="Escriba aqui su mensaje"></textarea> <br>
+                <select name="pais">
+                    <option value="Barquisimeto">Barquisimeto</option>
+                    <option value="caracas">Caracas</option>
+                    <option value="Maracay">Maracay</option>
+                </select>
+            </fieldset>
+        </div>
+        <input type="submit" value="Enviar"> <br>
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>
